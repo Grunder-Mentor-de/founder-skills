@@ -175,10 +175,17 @@ function labelVorlage(name) {
 // ---------------------------------------------------------------------------------------------
 // GitHub-Teil
 
-// Slugs aller Skills im Repository: Ordner mit SKILL.md unter skills/, im Hauptordner und unter .claude/skills/
+// Slugs aller Skills im Repository: Ordner mit SKILL.md unter plugins/<plugin>/skills/, unter skills/,
+// im Hauptordner und unter .claude/skills/
 function bekannteSkillsLesen(root) {
   const slugs = new Set()
-  for (const ort of [path.join(root, 'skills'), root, path.join(root, '.claude', 'skills')]) {
+  const orte = [path.join(root, 'skills'), root, path.join(root, '.claude', 'skills')]
+  try {
+    for (const p of fs.readdirSync(path.join(root, 'plugins'), { withFileTypes: true })) {
+      if (p.isDirectory()) orte.push(path.join(root, 'plugins', p.name, 'skills'))
+    }
+  } catch {}
+  for (const ort of orte) {
     let eintraege = []
     try {
       eintraege = fs.readdirSync(ort, { withFileTypes: true })

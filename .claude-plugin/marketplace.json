@@ -1,0 +1,9 @@
+{
+  "name": "founder-skills",
+  "description": "Founder Skills von Gründer-Mentor.de: Founder Skills für Claude, Claude Code und Codex. Jeder Skill ist ein eigenes Plugin.",
+  "owner": {
+    "name": "Michael Detke, Gründer-Mentor.de",
+    "email": "kontakt@gruender-mentor.de"
+  },
+  "plugins": []
+}

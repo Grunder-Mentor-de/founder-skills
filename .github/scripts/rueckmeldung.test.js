@@ -164,17 +164,17 @@ test('Formular-Überschriften passen zu den Konstanten im Skript', () => {
   assert.equal(labelVon('aenderung.yml', 'skill'), r.FELD_SKILL)
 })
 
-test('bekannteSkillsLesen findet Skills unter skills/', () => {
+test('bekannteSkillsLesen findet Skills unter plugins/ und skills/', () => {
   const os = require('os')
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'skills-'))
-  for (const ordner of ['skills/reality-check', 'skills/_entwurf', 'skills/ohne-skill-md', 'customer-interview']) {
+  for (const ordner of ['plugins/sales-deck/skills/sales-deck', 'skills/reality-check', 'skills/_entwurf', 'skills/ohne-skill-md', 'customer-interview']) {
     fs.mkdirSync(path.join(tmp, ordner), { recursive: true })
   }
-  for (const datei of ['skills/reality-check/SKILL.md', 'skills/_entwurf/SKILL.md', 'customer-interview/SKILL.md']) {
+  for (const datei of ['plugins/sales-deck/skills/sales-deck/SKILL.md', 'skills/reality-check/SKILL.md', 'skills/_entwurf/SKILL.md', 'customer-interview/SKILL.md']) {
     fs.writeFileSync(path.join(tmp, datei), '---\nname: x\n---\n')
   }
   const slugs = r.bekannteSkillsLesen(tmp)
-  assert.deepEqual(slugs, ['customer-interview', 'reality-check'])
+  assert.deepEqual(slugs, ['customer-interview', 'reality-check', 'sales-deck'])
   fs.rmSync(tmp, { recursive: true, force: true })
 })
 
