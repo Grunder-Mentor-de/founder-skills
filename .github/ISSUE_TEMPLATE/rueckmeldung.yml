@@ -1,0 +1,52 @@
+# Der Abschluss jedes Founder Skills (references/abschluss.md im Skill) belegt dieses Formular über einen Link vor:
+# ?template=rueckmeldung.yml&title=…&skill=…&version=…&sterne=…&zusammenfassung=…&werkzeug=…
+# Darum sind alle vorbelegten Felder Textfelder (input oder textarea) mit genau diesen ids.
+# Dropdowns lassen sich über den Link nicht zuverlässig vorbelegen.
+# Die Überschriften „Welcher Skill?“ und „Sterne“ liest der Workflow .github/workflows/rueckmeldung.yml.
+# Wer sie ändert, passt .github/scripts/rueckmeldung.js mit an.
+# „required: true“ setzt GitHub in diesem öffentlichen Repository durch.
+name: Rückmeldung zu einem Skill
+description: Sterne und eine kurze Zusammenfassung, wo der Skill zu dir gepasst hat und wo nicht
+title: "[Rückmeldung] "
+labels: ["rückmeldung"]
+body:
+  - type: markdown
+    attributes:
+      value: Bitte keine Kundennamen, Zahlen oder Vertragsdetails aus deinem Startup. Beschreib das Muster, nicht den Fall.
+  - type: input
+    id: skill
+    attributes:
+      label: Welcher Skill?
+      description: Slug oder Name, z. B. reality-check
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Steht im Link aus dem Skill oder in der Community beim Download, z. B. 1.1.0
+  - type: input
+    id: sterne
+    attributes:
+      label: Sterne
+      description: Zahl von 1 (schlecht) bis 5 (hervorragend)
+    validations:
+      required: true
+  - type: textarea
+    id: zusammenfassung
+    attributes:
+      label: Zusammenfassung
+      description: Was du eingebracht hast, wonach der Skill nicht gefragt hat, und wo du bewusst anders vorgegangen bist
+    validations:
+      required: true
+  - type: textarea
+    id: ergaenzung
+    attributes:
+      label: Was würdest du ergänzen oder anders machen?
+    validations:
+      required: false
+  - type: input
+    id: werkzeug
+    attributes:
+      label: Womit hast du den Skill genutzt?
+      description: Claude App oder claude.ai, Claude Code, Codex oder anderes

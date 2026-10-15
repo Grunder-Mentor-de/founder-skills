@@ -1,0 +1,20 @@
+name: Neuer Skill
+description: Welches Thema fehlt dir?
+title: "[Neuer Skill] "
+labels: ["neuer-skill"]
+body:
+  - type: textarea
+    id: von-nach
+    attributes:
+      label: Von wo nach wo soll der Skill dich bringen?
+      description: Zum Beispiel „von keiner Ahnung zu einer Entscheidung, ob wir eine GmbH gründen“
+    validations: { required: true }
+  - type: textarea
+    id: ergebnis
+    attributes:
+      label: Was willst du am Ende in der Hand haben?
+    validations: { required: true }
+  - type: textarea
+    id: warum
+    attributes:
+      label: Warum ist das gerade wichtig für dich?

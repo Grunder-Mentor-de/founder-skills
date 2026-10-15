@@ -1,0 +1,38 @@
+# Sortiert Rückmeldungen und Änderungsvorschläge ein: liest aus dem Issue-Text den Skill und die Sterne
+# und setzt die Labels skill:<slug> und sterne:<1-5>. Alte skill:- und sterne:-Labels werden ersetzt,
+# fehlende Labels angelegt. Die Community kann darüber pro Skill zeigen, welche Rückmeldungen eingingen.
+# Die Logik steht in .github/scripts/rueckmeldung.js. Lokal testen: node --test .github/scripts/
+name: Rückmeldung einsortieren
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: read # Checkout, damit das Skript und die Liste der Skills da sind
+  issues: write # Labels anlegen, setzen und entfernen
+
+concurrency:
+  group: rueckmeldung-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  labels:
+    # Bei „labeled“ nur, wenn gerade „rückmeldung“ oder „änderung“ dazukam. So überschreibt der Workflow
+    # keine skill:- oder sterne:-Labels, die jemand von Hand setzt. Labels, die der Workflow selbst setzt,
+    # lösen keinen neuen Lauf aus (GITHUB_TOKEN).
+    if: >-
+      (github.event.action == 'labeled' &&
+      (github.event.label.name == 'rückmeldung' || github.event.label.name == 'änderung')) ||
+      (github.event.action != 'labeled' &&
+      (contains(github.event.issue.labels.*.name, 'rückmeldung') || contains(github.event.issue.labels.*.name, 'änderung')))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const einsortieren = require('./.github/scripts/rueckmeldung.js')
+            await einsortieren({ github, context, core })

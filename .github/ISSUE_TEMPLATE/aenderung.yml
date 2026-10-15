@@ -1,0 +1,24 @@
+# Die Optionen ergänzt die Werkstatt beim Veröffentlichen eines Skills (ABNAHME.md in der Werkstatt).
+# Der Workflow .github/scripts/rueckmeldung.js macht aus dem Namen den Slug. Passt das nicht, steht die Option als „Name (slug)“.
+name: Änderungsvorschlag
+description: Eine Frage ist unklar, ein Schritt fehlt, ein Beispiel passt nicht
+title: "[Änderung] "
+labels: ["änderung"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Welcher Skill?
+      options: [alle]
+    validations: { required: true }
+  - type: textarea
+    id: stelle
+    attributes:
+      label: Welche Stelle?
+      description: Schritt, Frage oder Satz, um den es geht
+    validations: { required: true }
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Was schlägst du vor, und warum?
+    validations: { required: true }
