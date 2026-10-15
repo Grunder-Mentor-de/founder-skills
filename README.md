@@ -1,4 +1,4 @@
-# Founder Skills von Gründer-Mentor.de
+# Kostenlose Founder Skills von Gründer-Mentor.de
 
 Founder Skills sind Anleitungen für Claude und andere KI-Assistenten, die das Format SKILL.md lesen. Claude stellt dir Frage für Frage die richtigen Fragen und arbeitet mit dir an deinem eigenen Vorhaben. Am Ende hast du ein Ergebnis zum Herunterladen. Die Skills baut Michael Detke aus seinen Erfahrungen als Gründer.
 
