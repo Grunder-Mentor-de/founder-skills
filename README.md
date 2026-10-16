@@ -13,6 +13,7 @@ Jeder Skill hat eine eigene Beschreibung: was er macht, wie du ihn installierst 
 |---|---|---|---|
 | [Reality Check](plugins/reality-check/README.md) | Idee und Start | 1.2.0 | „Ich will gründen, habe aber noch keine Idee oder weiß nicht, ob meine Idee zu mir passt und trägt“ → ich kenne mein Warum und den Preis des Gründens, habe eine Idee, die zu meinen Ressourcen passt, und eine bewusste Entscheidung mit Begründung, Prüfdatum und erstem Schritt |
 | [Elevator Pitch](plugins/elevator-pitch/README.md) | Idee und Start | 1.2.0 | „Mein Pitch ist zu lang oder noch gar nicht da“ → 90 Sekunden ohne Folien, gestoppt, Fragerunde geübt |
+| [Sales Deck](plugins/sales-deck/README.md) | Kunden und Vertrieb | 1.2.0 | „Ich will einen ersten Pilotkunden gewinnen, mir fehlen Deck und Preis“ → Deck, dessen Überschriften allein die Geschichte erzählen, Pilotangebot mit Preis, ohne Zögern ausgesprochen |
 <!-- SKILLS:END -->
 
 Jeder Skill gehört zu einem der sechs Bereiche, nach denen auch gründer-mentor.de gegliedert ist: Idee und Start, Kunden und Vertrieb, Finanzierung, Team und Führung, Du als Gründer, Ende und Neustart.

@@ -17,6 +17,12 @@
       "source": "./plugins/elevator-pitch",
       "description": "Founder Skill Elevator Pitch: Welches Problem löst du, und gibt es das wirklich? Du klärst, wer das Problem hat, wie groß es ist, wie eine Lösung aussieht und was sie wert ist.",
       "category": "Idee und Start"
+    },
+    {
+      "name": "sales-deck",
+      "source": "./plugins/sales-deck",
+      "description": "Founder Skill Sales Deck: Du baust die Präsentation für deine ersten Pilotkunden, mit Angebot, Preis und nächstem Schritt.",
+      "category": "Kunden und Vertrieb"
     }
   ]
 }

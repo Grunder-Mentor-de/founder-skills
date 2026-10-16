@@ -1,0 +1,11 @@
+{
+  "name": "sales-deck",
+  "version": "1.2.0",
+  "description": "Founder Skill Sales Deck: Du baust die Präsentation für deine ersten Pilotkunden, mit Angebot, Preis und nächstem Schritt.",
+  "author": {
+    "name": "Michael Detke, Gründer-Mentor.de",
+    "url": "https://xn--grnder-mentor-xob.de/"
+  },
+  "homepage": "https://github.com/Grunder-Mentor-de/founder-skills/tree/main/plugins/sales-deck",
+  "repository": "https://github.com/Grunder-Mentor-de/founder-skills"
+}

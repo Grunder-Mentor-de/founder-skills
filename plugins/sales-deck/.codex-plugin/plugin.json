@@ -1,0 +1,9 @@
+{
+  "name": "sales-deck",
+  "version": "1.2.0",
+  "description": "Founder Skill Sales Deck: Du baust die Präsentation für deine ersten Pilotkunden, mit Angebot, Preis und nächstem Schritt.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sales Deck"
+  }
+}
