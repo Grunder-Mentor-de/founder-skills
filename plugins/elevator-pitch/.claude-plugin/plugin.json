@@ -1,0 +1,11 @@
+{
+  "name": "elevator-pitch",
+  "version": "1.2.0",
+  "description": "Founder Skill Elevator Pitch: Welches Problem löst du, und gibt es das wirklich? Du klärst, wer das Problem hat, wie groß es ist, wie eine Lösung aussieht und was sie wert ist.",
+  "author": {
+    "name": "Michael Detke, Gründer-Mentor.de",
+    "url": "https://xn--grnder-mentor-xob.de/"
+  },
+  "homepage": "https://github.com/Grunder-Mentor-de/founder-skills/tree/main/plugins/elevator-pitch",
+  "repository": "https://github.com/Grunder-Mentor-de/founder-skills"
+}
