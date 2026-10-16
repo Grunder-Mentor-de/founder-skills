@@ -9,7 +9,9 @@ Dieses Repository enthält die kostenlosen Founder Skills. Du installierst die S
 Jeder Skill hat eine eigene Beschreibung: was er macht, wie du ihn installierst und startest, was du brauchst und wie du weitermachst.
 
 <!-- SKILLS:START -->
-Noch keine Skills veröffentlicht.
+| Skill | Bereich | Version | Von A nach B |
+|---|---|---|---|
+| [Reality Check](plugins/reality-check/README.md) | Idee und Start | 1.2.0 | „Ich will gründen, habe aber noch keine Idee oder weiß nicht, ob meine Idee zu mir passt und trägt“ → ich kenne mein Warum und den Preis des Gründens, habe eine Idee, die zu meinen Ressourcen passt, und eine bewusste Entscheidung mit Begründung, Prüfdatum und erstem Schritt |
 <!-- SKILLS:END -->
 
 Jeder Skill gehört zu einem der sechs Bereiche, nach denen auch gründer-mentor.de gegliedert ist: Idee und Start, Kunden und Vertrieb, Finanzierung, Team und Führung, Du als Gründer, Ende und Neustart.

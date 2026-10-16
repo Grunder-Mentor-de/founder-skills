@@ -5,5 +5,12 @@
     "name": "Michael Detke, Gründer-Mentor.de",
     "email": "kontakt@gruender-mentor.de"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "reality-check",
+      "source": "./plugins/reality-check",
+      "description": "Founder Skill Reality Check: Willst du gründen, und womit? Du klärst zuerst, was Gründen wirklich kostet und warum du es trotzdem willst. Dann findest du mit Ikigai und Ressourcenrad Ideen, die zu dir passen, prüfst das Problem und entscheidest, ob und wie du startest.",
+      "category": "Idee und Start"
+    }
+  ]
 }
