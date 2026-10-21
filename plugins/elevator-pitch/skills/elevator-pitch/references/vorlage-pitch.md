@@ -51,6 +51,13 @@ Wortzahl: [Zahl] (Ziel: 200 bis 220) · Gestoppt: [Sekunden]
 2. [Frage] · Unsere Antwort: [...]
 3. [Frage] · Unsere Antwort: [...]
 
+## Für den nächsten Schritt
+- Erstellt mit: Elevator Pitch 1.3.0, am [Datum]
+- Stufe: [Nummer und Name], Ziel der Stufe [belegt | teilweise | offen]
+- Belege: [Zahl der echten Gespräche, höchste Belegstufe, ein wörtlicher Satz, falls vorhanden]
+- Offene Annahmen: [höchstens fünf, die riskanteste zuerst]
+- Empfohlener nächster Skill: Sales Deck
+
 ---
 Nächster Schritt auf dem Weg „Start from Zero“: Founder Skill „Sales Deck“ · gründer-mentor.de/skills
 ```

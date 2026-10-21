@@ -68,6 +68,7 @@ Der Skill stellt sich kurz vor und stellt dir dann eine Frage nach der anderen.
 
 ## Was du brauchst
 
+- Hast du schon eine Ideenbeschreibung, Notizen oder einen Entwurf, bring es mit. Der Skill fragt am Anfang „Fängst du neu an, oder hast du schon etwas?“, bewertet dein Material mit Stärken, Lücken und den drei wichtigsten Verbesserungen und sagt dir, wo du auf dem Weg stehst. Überarbeitet wird nur, wenn du das willst.
 - Zum Installieren mit einem Satz: die Claude-App für den Desktop mit Pro oder Max (kostenpflichtig) oder die Codex-App von OpenAI (laut OpenAI auch im kostenlosen ChatGPT-Konto, mit begrenzter Nutzung). Andere Wege stehen unter „Installieren“.
 - Deine Idee, auch wenn sie noch unfertig ist. Mehrere Ideen gehen auch.
 - Im Team: alle Gründerinnen und Gründer, denn beim Warum antwortet jede Person für sich und bekommt ihre eigene Checkliste.

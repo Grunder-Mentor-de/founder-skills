@@ -9,11 +9,31 @@ Dieses Repository enthält die kostenlosen Founder Skills. Du installierst die S
 Jeder Skill hat eine eigene Beschreibung: was er macht, wie du ihn installierst und startest, was du brauchst und wie du weitermachst.
 
 <!-- SKILLS:START -->
+**There is no shortcut.** Acht Stationen in dieser Reihenfolge. Alle starten bei 1. Wer schon Belege hat, ist schneller durch, überspringt aber nichts.
+
+**Start from Zero: Von der Idee zum ersten Kunden**
+
+| Station | Skill | Version | Von A nach B |
+|---|---|---|---|
+| 1 | [Reality Check](plugins/reality-check/README.md) | 1.3.0 | „Ich will gründen, habe aber noch keine Idee oder weiß nicht, ob meine Idee zu mir passt und trägt“ → ich kenne mein Warum und den Preis des Gründens, habe eine Idee, die zu meinen Ressourcen passt, und eine bewusste Entscheidung mit Begründung, Prüfdatum und erstem Schritt |
+| 2 | [Elevator Pitch](plugins/elevator-pitch/README.md) | 1.3.0 | „Mein Pitch ist zu lang oder noch gar nicht da“ → 90 Sekunden ohne Folien, gestoppt, Fragerunde geübt |
+| 3 | [Sales Deck](plugins/sales-deck/README.md) | 1.3.0 | „Ich will einen ersten Pilotkunden gewinnen, mir fehlen Deck und Preis“ → Deck, dessen Überschriften allein die Geschichte erzählen, Pilotangebot mit Preis, ohne Zögern ausgesprochen |
+| 4 | [Customer Outreach & Interview](https://github.com/Grunder-Mentor-de/founder-skills-mitglieder/tree/main/plugins/customer-interview) | 1.3.0 | „Ich weiß, dass ich mit Kunden reden sollte, aber nicht mit wem und was ich frage“ → Thesen, zehn echte Gesprächspartner mit Jobtitel und Kundengruppe, abschickbare Nachricht, Plan für 14 Tage |
+
+**Traction: Produkt und Umsatz mit KI beschleunigen**
+
+| Station | Skill | Version | Von A nach B |
+|---|---|---|---|
+| 5 | MVP & Angebot | kommt | Problem belegt, nichts verkauft → mit dem ersten Pilotkunden festgelegt, was gebaut wird, und verkauft, bevor es gebaut ist |
+| 6 | Deals closen | kommt | Pilot angeboten oder gestartet, nichts unterschrieben → Unterschrift mit Datum oder ein klares Nein |
+| 7 | Businessplan schreiben | kommt | „Wir brauchen einen Businessplan für EXIST oder einen Wettbewerb“ → Plan, der von unten rechnet und Belege aus Kundengesprächen nutzt |
+| 8 | QuickCheck IP & Recht | kommt | „Dürfen wir das, und müssen wir etwas schützen?“ → Fragen zu IP, Zulassung, Daten und Export geklärt, mit der richtigen Anlaufstelle (BfArM, BAFA, IHK, Patentinformationszentrum) |
+
+**Weitere Skills**
+
 | Skill | Bereich | Version | Von A nach B |
 |---|---|---|---|
-| [Reality Check](plugins/reality-check/README.md) | Idee und Start | 1.2.0 | „Ich will gründen, habe aber noch keine Idee oder weiß nicht, ob meine Idee zu mir passt und trägt“ → ich kenne mein Warum und den Preis des Gründens, habe eine Idee, die zu meinen Ressourcen passt, und eine bewusste Entscheidung mit Begründung, Prüfdatum und erstem Schritt |
-| [Elevator Pitch](plugins/elevator-pitch/README.md) | Idee und Start | 1.2.0 | „Mein Pitch ist zu lang oder noch gar nicht da“ → 90 Sekunden ohne Folien, gestoppt, Fragerunde geübt |
-| [Sales Deck](plugins/sales-deck/README.md) | Kunden und Vertrieb | 1.2.0 | „Ich will einen ersten Pilotkunden gewinnen, mir fehlen Deck und Preis“ → Deck, dessen Überschriften allein die Geschichte erzählen, Pilotangebot mit Preis, ohne Zögern ausgesprochen |
+| [Website erstellen](plugins/website-erstellen/README.md) | Kunden und Vertrieb | 1.1.0 | „Ich habe eine Idee, aber keine Website, und weiß nicht, wo ich anfangen soll“ → Website als virtueller Verkaufsstand aus Pitch und Sales Deck, mit Impeccable gestaltet, unter eigener Domain mit HTTPS auf GitHub Pages oder bei Hostinger, mobil und am Desktop geprüft, Impressum und Datenschutzerklärung verlinkt, Kontaktweg getestet |
 <!-- SKILLS:END -->
 
 Jeder Skill gehört zu einem der sechs Bereiche, nach denen auch gründer-mentor.de gegliedert ist: Idee und Start, Kunden und Vertrieb, Finanzierung, Team und Führung, Du als Gründer, Ende und Neustart.

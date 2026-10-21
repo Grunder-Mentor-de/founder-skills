@@ -67,6 +67,7 @@ Der Skill stellt sich kurz vor und stellt dir dann eine Frage nach der anderen.
 
 ## Was du brauchst
 
+- Hast du schon einen Pitch, bring es mit. Der Skill fragt am Anfang „Fängst du neu an, oder hast du schon etwas?“, bewertet dein Material mit Stärken, Lücken und den drei wichtigsten Verbesserungen und sagt dir, wo du auf dem Weg stehst. Überarbeitet wird nur, wenn du das willst.
 - Zum Installieren mit einem Satz: die Claude-App für den Desktop mit Pro oder Max (kostenpflichtig) oder die Codex-App von OpenAI (laut OpenAI auch im kostenlosen ChatGPT-Konto, mit begrenzter Nutzung). Andere Wege stehen unter „Installieren“.
 - Eine Stoppuhr, die vom Handy reicht. Du liest das Skript laut und stoppst die Zeit.
 - Einen Ort, an dem du laut lesen kannst.

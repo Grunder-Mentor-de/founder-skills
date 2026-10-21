@@ -2,7 +2,7 @@
 name: sales-deck
 description: Founder Skill von Gründer-Mentor.de, Schritt 3 auf dem Weg „Start from Zero“ (von der Idee zum ersten Kunden). Baut mit Gründerinnen, Gründern und Teams Frage für Frage ein kurzes Sales Deck im Querformat für die ersten Pilotkunden, mit Überschriften als Antworten statt Fragen: Titel, Problem mit Zahl oder These, Lösung mit Bild, Beweis, Geschäftsmodell mit Pilotangebot und Preis, was die Lösung einzigartig macht, Wettbewerb samt Nichtstun, Plan und Ask mit Kontaktdaten. Dazu Design nach der 10-20-30-Regel, Versionen und eine Absichtserklärung. Nutze diesen Skill immer, wenn jemand eine Präsentation für Kunden, Pilotkunden, Partner oder einen Kundentermin braucht, ein Pilotangebot formulieren will, nicht weiß, was er verlangen soll, „Pitch Deck“ oder „Sales Deck“ sagt, einen ersten Kunden gewinnen will oder einen Letter of Intent vorbereiten möchte, auch wenn das Wort Skill nicht fällt. Für reine Investoren-Decks gibt es am Ende eine kurze Abzweigung.
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
 ---
 
 # Sales Deck — die Präsentation für deine ersten Pilotkunden
@@ -38,6 +38,7 @@ Im Einstieg nennst du den Steckbrief in einem Satz: wo die Person startet, wo si
 - **Freigaben.** Namen, Logos und Zitate bestehender Kunden oder Pilotkunden nur mit deren Erlaubnis. Frag nach, ob sie vorliegt, sonst anonymisieren („ein mittelständischer Anlagenbauer“).
 - Bei Verträgen, Haftung oder Datenschutz: Thema als offenen Punkt notieren und auf Gründungsberatung, IHK oder Fachleute verweisen. Du machst keine Rechtsberatung.
 - **Abweichungen still merken.** Lies zu Beginn `references/abschluss.md`. Merk dir das ganze Gespräch über, wie dort in Teil A beschrieben, wo die Person vom Ablauf abweicht, ohne es anzusprechen und ohne es zu werten.
+- **Einstieg.** Lies zu Beginn `references/einstieg.md` und führ ihn vor Schritt 0 aus: Stand prüfen, Ergebnisse früherer Skills suchen, dann die Frage „Fängst du neu an, oder hast du schon etwas?“. Bringt die Person ein eigenes Ergebnis dieses Skills mit, bewertest du es nach dem Prüfraster unten und überarbeitest es nur, wenn sie das will.
 - **Stand speichern.** Lies zu Beginn `references/status.md`. Prüf, ob es schon einen Stand gibt, und halt ihn nach jedem Schritt fest, wie dort beschrieben. So kann die Person jederzeit pausieren und später weitermachen.
 
 Lies zu Beginn `references/erfahrungen.md` und nutze pro Gespräch höchstens zwei Erfahrungen, als Michaels Erfahrung gekennzeichnet. Für alle Texte gilt `references/schreibregeln.md`.
@@ -47,6 +48,8 @@ Lies zu Beginn `references/erfahrungen.md` und nutze pro Gespräch höchstens zw
 Jeder Schritt von 2 bis 8 ergibt eine Folie, beim Wettbewerb zwei. Die Reihenfolge der Schritte ist die Reihenfolge im Deck.
 
 ### 0. Einstieg und Stand
+Zuerst läuft der Einstieg aus `references/einstieg.md`. Hat die Person dort „neu“ gewählt oder das Ergebnis eines früheren Schritts mitgebracht, geht es hier weiter. Was der Einstieg schon geklärt hat, fragst du nicht noch einmal ab.
+
 Kurz vorstellen, den Steckbrief in einem Satz und die Dauer nennen. Frag nach den Vorarbeiten: Gibt es einen One-Pager aus dem Reality Check, ein Pitch-Blatt aus dem Elevator Pitch oder ein anderes Dokument zum Vorhaben? Wenn ja, lies es und übernimm Zielgruppe, Problem, These, Kategorie, Wert und Ein-Satz-Pitch. Was dort geklärt ist, fragst du nicht noch einmal ab, du schlägst es nur zur Bestätigung vor.
 
 Dann als Formular:
@@ -149,12 +152,29 @@ Zum Schluss: Lass die Person den Einstieg und das Angebot einmal laut ausspreche
 ## Abzweigung: Investoren-Deck
 Wenn die Person eigentlich Investoren überzeugen will: Für frühe Teams ist der Aufbau fast gleich, denn ein Pre-Seed-Investor kauft vor allem den Beweis, dass jemand anderes kaufen würde. Statt des Pilotangebots steht beim Geschäftsmodell, wie das Startup über viele Kunden Geld verdient. Dazu kommen Markt (von unten gerechnet) und Team, und der Ask nennt, wie viel Geld wofür nötig ist und welche Meilensteine damit erreicht werden. Frag vorher, ob überhaupt Geld von außen nötig ist. „Nein“ ist ein vollwertiges Ergebnis.
 
+## Prüfraster für ein bestehendes Deck
+
+Gilt für ein Deck als PowerPoint, PDF, Fotos oder Folientext. Prüf jeden Punkt mit „da“, „teilweise“ oder „fehlt“.
+
+1. **Überschriften-Test:** Erzählen die Überschriften allein die Geschichte, als Antworten statt Fragen oder Themen? → Schritt 2 bis 9
+2. **Umfang:** höchstens 10 Folien, keine Agenda, keine Dankesfolie, Schrift nicht kleiner als 30 Punkt? → Schritt 9
+3. **Problem:** eine Zahl oder eine als These gekennzeichnete Aussage, Kosten in der Währung des Kunden? → Schritt 3
+4. **Lösung:** als Ergebnis mit Bild, ohne Funktionsliste? → Schritt 4
+5. **Beweis:** ehrlich, und die Belegstufe ist erkennbar? → Schritt 5
+6. **Pilotangebot:** fünf Sätze, ein Preis als Zahl, netto, Dauer, Erfolgskriterien, Preis nach dem Pilot? → Schritt 6
+7. **Einzigartig und Wettbewerb:** ein Treiber mit Beleg, eine faire Tabelle mit dem Nichtstun? → Schritt 7
+8. **Ask:** letzte Folie, nächster Schritt mit Datum, Kontaktdaten? → Schritt 8
+9. **Annahmen und Freigaben:** Annahmen markiert, Kundennamen, Logos und Zitate nur mit Freigabe? → Schritt 9
+10. **Lesbarkeit:** kräftiger Kontrast, keine grelle Schrift auf Weiß, keine sehr dunklen Folien? → Schritt 9
+
+Ist das Material ein Deck für Investoren, sag das und nimm die Abzweigung „Investoren-Deck“. Hatte die Person weniger als drei echte Gespräche, ist das Deck ein Hypothesen-Deck. Das ist in Ordnung, die Einordnung sagt dann: als Nächstes die Gespräche.
+
 ## Ergebnis
 
-Erstelle am Ende das Paket nach `references/deck-aufbau.md` als Dokument zum Herunterladen: Folientexte mit Sprechtext, Designvorschlag, Pilotangebot in fünf Sätzen, Liste der Annahmen, Absichtserklärung (falls gewünscht). Wenn Dateien möglich sind, dazu das Deck als PowerPoint oder PDF mit Versionsnummer im Namen.
+Erstelle am Ende das Paket nach `references/deck-aufbau.md` als Dokument zum Herunterladen (mit Dateien als `founder-skills/03-pitch-sales.md`, mit dem Abschnitt „Für den nächsten Schritt“ aus `references/einstieg.md`, Teil D): Folientexte mit Sprechtext, Designvorschlag, Pilotangebot in fünf Sätzen, Liste der Annahmen, Absichtserklärung (falls gewünscht). Wenn Dateien möglich sind, dazu das Deck als PowerPoint oder PDF mit Versionsnummer im Namen.
 
 ## Abschluss
 
 Nächster Schritt auf dem Weg: der Founder Skill „Customer Outreach & Interview“. Dort findest du die richtigen Gesprächspartner, sprichst sie an und prüfst die markierten Annahmen in echten Gesprächen. Danach kommst du mit den Ergebnissen zurück und aktualisierst das Deck als neue Version. Alle Founder Skills gibt es kostenlos auf gründer-mentor.de/skills. Kurz halten, keine Werbung.
 
-Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Sales Deck“, Slug `sales-deck`, Version `1.2.0`.
+Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Sales Deck“, Slug `sales-deck`, Version `1.3.0`.

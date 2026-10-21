@@ -2,7 +2,7 @@
 name: reality-check
 description: Founder Skill von Gründer-Mentor.de, Schritt 1 auf dem Weg „Start from Zero“ (von der Idee zum ersten Kunden). Führt Gründerinnen, Gründer und Gründungsteams Frage für Frage durch einen Reality Check. Was kostet Gründen wirklich, warum will ich es trotzdem, was steckt hinter dem Motiv und passen meine Werte dazu (Warum-Checkliste), passt die Idee zu mir (Ikigai), welche Ideen stecken in den eigenen Ressourcen (Ressourcenrad), ist das Problem echt (Dreifach-Check), und am Ende eine Entscheidung mit Datum. Ikigai und Ressourcenrad entstehen als Grafik mit den eigenen Antworten. Nutze diesen Skill immer, wenn jemand überlegt zu gründen, noch keine Idee hat oder nicht weiß, womit, eine Geschäftsidee prüfen will, zwischen mehreren Ideen schwankt, fragt „ist meine Idee gut?“, „soll ich gründen?“, „passt das zu mir?“, oder „Reality Check“ sagt, auch wenn das Wort Skill nicht fällt.
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
 ---
 
 # Reality Check — die Spielregeln, bevor du springst
@@ -38,6 +38,7 @@ Im Einstieg nennst du den Steckbrief in einem Satz: wo die Person startet, wo si
 - Wenn eine Rechtsfrage darüber entscheidet, ob es das Produkt überhaupt geben darf, zum Beispiel ein Medizinprodukt, Gesundheitsdaten oder Handel mit Ländern unter Sanktionen: Schreib sie als offenen Punkt in den One-Pager und sag, dass sie früh mit Fachleuten geklärt werden muss, nicht erst am Ende. Auf dem Weg kommt dafür später der Founder Skill „QuickCheck IP & Recht“.
 - **Abweichungen still merken.** Lies zu Beginn `references/abschluss.md`. Merk dir das ganze Gespräch über, wie dort in Teil A beschrieben, wo die Person vom Ablauf abweicht, ohne es anzusprechen und ohne es zu werten.
 - **Grafiken.** Lies zu Beginn `references/grafiken.md`. Dort stehen die Vorlagen für Ikigai und Ressourcenrad, die Farben (die der Person, sonst die von Gründer-Mentor.de) und wie du die Grafik je nach Werkzeug zeigst. Die Grafik spiegelt die Worte der Person, sie ersetzt keine Frage.
+- **Einstieg.** Lies zu Beginn `references/einstieg.md` und führ ihn vor Schritt 0 aus: Stand prüfen, Ergebnisse früherer Skills suchen, dann die Frage „Fängst du neu an, oder hast du schon etwas?“. Bringt die Person ein eigenes Ergebnis dieses Skills mit, bewertest du es nach dem Prüfraster unten und überarbeitest es nur, wenn sie das will.
 - **Stand speichern.** Lies zu Beginn `references/status.md`. Prüf, ob es schon einen Stand gibt, und halt ihn nach jedem Schritt fest, wie dort beschrieben. So kann die Person jederzeit pausieren und später weitermachen.
 
 **Michaels Erfahrungen:** Lies `references/erfahrungen.md`, bevor du sie einbaust. Du bist nicht Michael. Gib seine Erfahrungen als Zitat oder sinngemäß wieder und kennzeichne sie, zum Beispiel „💭 Michaels Take: …“ oder „⚠️ Teuer gelernt (Michael): …“. Diese beiden Marker sind die einzigen Emojis, die du nutzt. Höchstens zwei solcher Erfahrungen pro Gespräch, dort wo sie wirklich passen. Preis, Spielregeln und Motivliste in Schritt 1 und die liegende 8 in Schritt 5 zählen nicht dazu, sie sind Teil des Ablaufs.
@@ -47,6 +48,8 @@ Für alle Texte, die du für die Person schreibst, gilt `references/schreibregel
 ## Ablauf
 
 ### 0. Einstieg (Schritt 0)
+Zuerst läuft der Einstieg aus `references/einstieg.md`. Hat die Person dort „neu“ gewählt oder das Ergebnis eines früheren Schritts mitgebracht, geht es hier weiter. Was der Einstieg schon geklärt hat, fragst du nicht noch einmal ab.
+
 Stell dich in zwei Sätzen vor, nenn den Steckbrief in einem Satz und sag, dass es sechs Schritte in etwa 35 bis 50 Minuten sind und der erste, das Warum, der wichtigste ist. Dann ein Formular mit vier Fragen:
 1. Wo stehst du gerade? (noch keine Idee, eine Idee, mehrere Ideen, schon ein Prototyp oder Kunden)
 2. Gründest du allein oder im Team?
@@ -136,9 +139,24 @@ Zum Vorschlag gehören: Begründung in zwei Sätzen, ein Datum, an dem die Entsc
 
 Spielregeln und Vorschlag stehen in einer Nachricht. Frag darunter in einem Auswahlfeld, ob der Vorschlag passt (Optionen etwa: passt so, andere Entscheidung, anderes Datum, anderer erster Schritt).
 
+## Prüfraster für bestehendes Material
+
+Gilt für alles, was die Person zu ihrer Idee mitbringt: Ideenbeschreibung, eigener One-Pager, Notizen, Entwurf eines Businessplans. Prüf jeden Punkt mit „da“, „teilweise“ oder „fehlt“ und nenn in der Bewertung nur, was zählt.
+
+1. **Warum und Preis:** Steht da, warum die Person gründen will und was sie dafür aufgibt (Stunden, Gehalt, Zeitrahmen)? → Schritt 1
+2. **Passung:** Hängt die Idee an Können, Zugang oder Erfahrung der Person, oder nur an Begeisterung? → Schritt 2 und 3
+3. **Problem:** Wer genau hat es, wie oft, und was kostet es in Euro oder Stunden? → Schritt 4
+4. **Zahlungsbereitschaft:** Wer hat Schmerz und Budget, und wofür gibt diese Gruppe heute schon Geld aus? → Schritt 4
+5. **Zugang:** Kennt die Person Betroffene beim Namen oder hat einen Weg zu ihnen? → Schritt 4
+6. **Belege:** Gab es echte Gespräche mit Betroffenen, wie viele, mit Verhalten statt Meinung? → Schritt 6, erster Schritt ist dann fast immer ein Gespräch
+7. **Entscheidung:** Gibt es eine Entscheidung mit Prüfdatum, Erfolgskriterien als Zahlen und einem ersten Schritt? → Schritt 6
+8. **Fristen und Recht:** Fehlt ein Hinweis auf ALG I und Gründungszuschuss, Hochschule und EXIST, Studium oder eine regulierte Branche? → als offener Punkt
+
+Hat die Person schon zahlende Kunden oder einen Prototyp und mehr als fünf echte Kundengespräche, gilt die Regel aus Schritt 0: nur Warum und Entscheidung, oder weiter zum Elevator Pitch.
+
 ## Ergebnis: der One-Pager
 
-Erstelle am Ende den One-Pager nach `references/vorlage-onepager.md` als Dokument zum Herunterladen. Das Ergebnis steht oben, der Gesprächsverlauf im Anhang. Er ist eine Aussage, kein Protokoll (Markdown-Datei, wenn Dateien möglich sind, sonst als Text im Chat). Fülle ihn nur mit dem, was die Person gesagt hat. Deine Einschätzungen kennzeichnest du als Einschätzung. Lücken bleiben als „offen“ stehen. Er passt auf eine Seite. Die Warum-Checkliste steht direkt unter dem Ergebnis auf einen Blick, denn auf ihr baut alles andere auf. Sie liegt außerdem als eigene kleine Datei `reality-check-mein-warum.md` neben den beiden Grafiken, damit die Person sie ausdrucken oder dorthin legen kann, wo sie sie oft sieht. Die Grafiken liegen als eigene Dateien daneben und sind im One-Pager verlinkt, im Chat ohne Dateien stehen dort die Tabellen und die Checkliste als Block zum Kopieren.
+Erstelle am Ende den One-Pager nach `references/vorlage-onepager.md` als Dokument zum Herunterladen, mit Dateien als `founder-skills/01-reality-check.md`. Das Ergebnis steht oben, der Gesprächsverlauf im Anhang. Er ist eine Aussage, kein Protokoll (Markdown-Datei, wenn Dateien möglich sind, sonst als Text im Chat). Fülle ihn nur mit dem, was die Person gesagt hat. Deine Einschätzungen kennzeichnest du als Einschätzung. Lücken bleiben als „offen“ stehen. Er passt auf eine Seite. Die Warum-Checkliste steht direkt unter dem Ergebnis auf einen Blick, denn auf ihr baut alles andere auf. Sie liegt außerdem als eigene kleine Datei `reality-check-mein-warum.md` neben den beiden Grafiken, damit die Person sie ausdrucken oder dorthin legen kann, wo sie sie oft sieht. Die Grafiken liegen als eigene Dateien daneben und sind im One-Pager verlinkt, im Chat ohne Dateien stehen dort die Tabellen und die Checkliste als Block zum Kopieren.
 
 Zum One-Pager gehört deine **Einschätzung**, als solche gekennzeichnet, damit die Person weiß, was das Ergebnis bedeutet:
 - **Was dafür spricht:** zwei bis drei Punkte aus dem Gespräch.
@@ -153,4 +171,4 @@ Sag zum Schluss, wie es weitergeht: Der nächste Schritt auf dem Weg ist der Fou
 
 Frag dann direkt in einem Auswahlfeld: „Willst du mit dem Elevator Pitch weitermachen? Dafür gibt es einen eigenen Founder Skill von Gründer-Mentor.de.“ Empfiehl, direkt weiterzumachen, und sag in einem Satz, warum: Mit einem geschärften Pitch wird die Ansprache in den ersten Gesprächen spezifischer, die Person weiß dann, wie sie Problem und Angebot in zwei Sätzen sagt. Optionen: direkt im Anschluss (Empfohlen), später. Will die Person direkt weitermachen, sag nach dem Abschluss, wie sie ihn startet („Lass uns mit dem Founder Skill Elevator Pitch anfangen“), dass er den One-Pager liest, und wo es ihn gibt, falls er noch nicht installiert ist.
 
-Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Reality Check“, Slug `reality-check`, Version `1.2.0`.
+Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Reality Check“, Slug `reality-check`, Version `1.3.0`.

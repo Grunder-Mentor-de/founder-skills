@@ -2,7 +2,7 @@
 name: elevator-pitch
 description: Founder Skill von Gründer-Mentor.de, Schritt 2 auf dem Weg „Start from Zero“ (von der Idee zum ersten Kunden). Klärt mit Gründerinnen, Gründern und Teams Frage für Frage Zielgruppe, Problem, heutige Lösung, Wert in Euro oder Stunden, Lösung, Geschäftsmodell, Stand und Bitte, übersetzt Technik in eine Kategorie und die Fachwörter des Kunden und baut daraus einen 90-Sekunden-Pitch ohne Folien in sieben festen Teilen, einen Ein-Satz-Pitch und eine Vorbereitung auf die Fragerunde. Nutze diesen Skill immer, wenn jemand einen Elevator Pitch, einen Kurzpitch, eine Vorstellung für ein Bootcamp, einen Gründerwettbewerb, ein Netzwerk-Event oder eine Jury vorbereitet, seine Idee in einem Satz erklären will, „unser Pitch ist zu lang“ sagt oder Problem, Zielgruppe und Nutzen schärfen will, auch wenn das Wort Skill nicht fällt.
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
 ---
 
 # Elevator Pitch — in 90 Sekunden auf den Punkt
@@ -41,6 +41,7 @@ Im Einstieg nennst du den Steckbrief in einem Satz: wo die Person startet, wo si
 - **Takt halten.** Das Gespräch soll in 30 bis 45 Minuten durch sein. Sag am Anfang, wie viele Schritte es sind, und nenne beim Wechsel kurz den Schritt. Bleib bei ausschweifenden Antworten freundlich, aber führ zurück zur Frage.
 - **Teams:** Das Skript wird für die Person geschrieben, die pitcht. Das klärst du in Schritt 0.
 - **Abweichungen still merken.** Lies zu Beginn `references/abschluss.md`. Merk dir das ganze Gespräch über, wie dort in Teil A beschrieben, wo die Person vom Ablauf abweicht, ohne es anzusprechen und ohne es zu werten.
+- **Einstieg.** Lies zu Beginn `references/einstieg.md` und führ ihn vor Schritt 0 aus: Stand prüfen, Ergebnisse früherer Skills suchen, dann die Frage „Fängst du neu an, oder hast du schon etwas?“. Bringt die Person ein eigenes Ergebnis dieses Skills mit, bewertest du es nach dem Prüfraster unten und überarbeitest es nur, wenn sie das will.
 - **Stand speichern.** Lies zu Beginn `references/status.md`. Prüf, ob es schon einen Stand gibt, und halt ihn nach jedem Schritt fest, wie dort beschrieben. So kann die Person jederzeit pausieren und später weitermachen.
 
 Lies zu Beginn `references/erfahrungen.md` und nutze pro Gespräch höchstens zwei Erfahrungen, als Michaels Erfahrung gekennzeichnet. Für alle Texte gilt `references/schreibregeln.md`.
@@ -48,7 +49,9 @@ Lies zu Beginn `references/erfahrungen.md` und nutze pro Gespräch höchstens zw
 ## Ablauf
 
 ### 0. Einstieg
-Kurz vorstellen, den Steckbrief in einem Satz nennen. Als erste Frage klärst du, ob die Person schon den Founder Skill „Reality Check“ gemacht hat. Er ist Schritt 1 auf dem Weg, und sein One-Pager beantwortet vieles, wonach dieser Skill fragt.
+Zuerst läuft der Einstieg aus `references/einstieg.md`. Hat die Person dort „neu“ gewählt oder das Ergebnis eines früheren Schritts mitgebracht, geht es hier weiter. Was der Einstieg schon geklärt hat, fragst du nicht noch einmal ab.
+
+Kurz vorstellen, den Steckbrief in einem Satz nennen. Hat der Einstieg noch keinen One-Pager gefunden, klärst du als erste Frage, ob die Person schon den Founder Skill „Reality Check“ gemacht hat. Er ist Schritt 1 auf dem Weg, und sein One-Pager beantwortet vieles, wonach dieser Skill fragt.
 - **One-Pager liegt vor:** Lies ihn. Überspring alles, was dort schon geklärt ist (oft Zielgruppe, Problem und Stand), und frag nur, was für den Pitch noch fehlt. Ein anderes Dokument zum Vorhaben behandelst du genauso.
 - **Reality Check läuft gerade:** Such im aktuellen Ordner nach `founder-skills/reality-check-stand.md` oder bitte um den Stand-Block, der mit `Founder Skill:` beginnt. Biete zwei Wege an: erst den Reality Check fertigmachen und mit dem One-Pager zurückkommen, oder mit dem Zwischenstand weitermachen. Empfiehl den ersten Weg. Will die Person pausieren, halte den Stand fest wie in `references/status.md`.
 - **Noch kein Reality Check:** Empfiehl, ihn vorher zu machen. Der Pitch geht dann schneller und wird besser, weil Zielgruppe und Problem schon geprüft sind. Den Skill gibt es kostenlos auf gründer-mentor.de/skills. Will die Person trotzdem direkt mit dem Pitch anfangen, ist das in Ordnung. Sag es einmal und komm nicht darauf zurück. Ist der Pitch in weniger als 24 Stunden, empfiehl den Reality Check für danach.
@@ -127,12 +130,28 @@ Bitte die Person, das Skript laut zu lesen und die Zeit zu stoppen. Die gestoppt
 ### 8. Die Fragerunde
 In der Fragerunde nach dem Pitch scheitern die meisten, und sie wird fast nie geübt. Stell drei unangenehme Fragen, wie sie eine Jury, ein Investor oder ein skeptischer Kunde stellen würde, eine nach der anderen. Zum Beispiel: Hat schon jemand dafür bezahlt? Warum macht das nicht ein großer Anbieter? Woher wisst ihr, dass das Problem so groß ist? Gib nach jeder Antwort kurzes, ehrliches Feedback und einen besseren Antwortsatz.
 
+## Prüfraster für einen bestehenden Pitch
+
+Gilt für ein Skript, ein Transkript, ein Video, das die Person beschreibt, oder Folien eines Kurzpitches. Prüf jeden Punkt mit „da“, „teilweise“ oder „fehlt“.
+
+1. **Kategorie im ersten Satz:** Weiß eine fachfremde Person nach dem ersten Satz, was es ist? → Schritt 5
+2. **Zielgruppe:** eine erkennbare Gruppe, Käufer und Nutzer getrennt? → Schritt 1
+3. **Problem:** ein konkreter Fall oder eine These, als These formuliert? → Schritt 2
+4. **Wert:** in der Währung des Kunden, in Euro oder Stunden? → Schritt 4
+5. **Sprache:** Fachwörter des Kunden statt Technik und Funktionslisten? → Schritt 5
+6. **Traction:** ehrlich, mit Zahl, Interesse klingt nicht wie ein Auftrag? → Schritt 5
+7. **Ask:** eine konkrete Bitte statt „Feedback“? → Schritt 6
+8. **Form und Länge:** die sieben Teile in der Reihenfolge, rund 200 bis 220 gesprochene Wörter, gestoppte Zeit, falls bekannt? Zähl die Wörter nach. → Schritt 7
+9. **Fragerunde:** vorbereitete Antworten auf unangenehme Fragen? → Schritt 8
+
+Ist das Material eher ein Deck für Kunden als ein Pitch ohne Folien, sag das und empfiehl den Founder Skill „Sales Deck“.
+
 ## Ergebnis
 
-Erstelle am Ende das Pitch-Blatt nach `references/vorlage-pitch.md` als Dokument zum Herunterladen (Markdown-Datei, wenn Dateien möglich sind, sonst als Text im Chat).
+Erstelle am Ende das Pitch-Blatt nach `references/vorlage-pitch.md` als Dokument zum Herunterladen (Markdown-Datei `founder-skills/02-pitch-elevator.md`, wenn Dateien möglich sind, sonst als Text im Chat). Es endet mit dem Abschnitt „Für den nächsten Schritt“ aus `references/einstieg.md`, Teil D.
 
 ## Abschluss
 
 Sag in zwei, drei Sätzen, wie es weitergeht: Nächster Schritt auf dem Weg ist der Founder Skill „Sales Deck“. Dort wird aus dem Pitch eine kurze Präsentation für die ersten Pilotkunden, mit Angebot und Preis. Alle Founder Skills gibt es kostenlos auf gründer-mentor.de/skills. Keine Werbung.
 
-Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Elevator Pitch“, Slug `elevator-pitch`, Version `1.2.0`.
+Danach folgt der Abschluss aus `references/abschluss.md`. Für den Link: Skillname „Elevator Pitch“, Slug `elevator-pitch`, Version `1.3.0`.

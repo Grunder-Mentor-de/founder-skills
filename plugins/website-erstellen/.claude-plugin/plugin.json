@@ -1,0 +1,11 @@
+{
+  "name": "website-erstellen",
+  "version": "1.1.0",
+  "description": "Founder Skill Website erstellen: Du baust aus Pitch und Sales Deck deine eigene Website, gestaltest sie mit Impeccable und bringst sie mobil geprüft und mit Impressum unter deiner Domain online.",
+  "author": {
+    "name": "Michael Detke, Gründer-Mentor.de",
+    "url": "https://xn--grnder-mentor-xob.de/"
+  },
+  "homepage": "https://github.com/Grunder-Mentor-de/founder-skills/tree/main/plugins/website-erstellen",
+  "repository": "https://github.com/Grunder-Mentor-de/founder-skills"
+}

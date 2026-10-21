@@ -23,6 +23,12 @@
       "source": "./plugins/sales-deck",
       "description": "Founder Skill Sales Deck: Du baust die Präsentation für deine ersten Pilotkunden, mit Angebot, Preis und nächstem Schritt.",
       "category": "Kunden und Vertrieb"
+    },
+    {
+      "name": "website-erstellen",
+      "source": "./plugins/website-erstellen",
+      "description": "Founder Skill Website erstellen: Du baust aus Pitch und Sales Deck deine eigene Website, gestaltest sie mit Impeccable und bringst sie mobil geprüft und mit Impressum unter deiner Domain online.",
+      "category": "Kunden und Vertrieb"
     }
   ]
 }

@@ -70,6 +70,13 @@ Erreicht: weitermachen. Nicht erreicht: Idee anpassen oder nächsten Rohdiamante
 **Weitere Rohdiamanten:** [je eine Zeile: Titel, für wen]
 **Varianten oder verworfene Ideen:** [nur wenn es sie gab, je eine Zeile mit Grund]
 
+## Für den nächsten Schritt
+- Erstellt mit: Reality Check 1.3.0, am [Datum]
+- Stufe: [Nummer und Name], Ziel der Stufe [belegt | teilweise | offen]
+- Belege: [Zahl der echten Gespräche, höchste Belegstufe, ein wörtlicher Satz, falls vorhanden]
+- Offene Annahmen: [höchstens fünf, die riskanteste zuerst]
+- Empfohlener nächster Skill: Elevator Pitch
+
 Nächster Schritt auf dem Weg „Start from Zero“: Founder Skill „Elevator Pitch“ · gründer-mentor.de/skills
 ```
 

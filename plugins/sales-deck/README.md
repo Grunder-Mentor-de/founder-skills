@@ -67,6 +67,7 @@ Der Skill stellt sich kurz vor und stellt dir dann eine Frage nach der anderen.
 
 ## Was du brauchst
 
+- Hast du schon ein Deck, bring es mit. Der Skill fragt am Anfang „Fängst du neu an, oder hast du schon etwas?“, bewertet dein Material mit Stärken, Lücken und den drei wichtigsten Verbesserungen und sagt dir, wo du auf dem Weg stehst. Überarbeitet wird nur, wenn du das willst.
 - Zum Installieren mit einem Satz: die Claude-App für den Desktop mit Pro oder Max (kostenpflichtig) oder die Codex-App von OpenAI (laut OpenAI auch im kostenlosen ChatGPT-Konto, mit begrenzter Nutzung). Andere Wege stehen unter „Installieren“.
 - Was du über deinen Kunden weißt, am besten aus echten Gesprächen. Ohne Gespräche wird vieles im Deck als Annahme markiert.
 - Für die Folien ein Programm deiner Wahl: Google Slides oder Keynote (kostenlos) oder PowerPoint (kostenpflichtig). Mit Code-Ausführung kann Claude auch direkt eine PowerPoint-Datei oder ein PDF im Querformat erzeugen.
